@@ -76,12 +76,12 @@ document.addEventListener("DOMContentLoaded", function () {
       "detect_on": "canvas",
       "events": {
         "onhover": {
-          "enable": false,
-          "mode": "bubble"
+          "enable": true,
+          "mode": "repulse"
         },
         "onclick": {
-          "enable": false,
-          "mode": "repulse"
+          "enable": true,
+          "mode": "push"
         },
         "resize": true
       },
@@ -100,7 +100,7 @@ document.addEventListener("DOMContentLoaded", function () {
           "speed": 3
         },
         "repulse": {
-          "distance": 400,
+          "distance": 200,
           "duration": 0.4
         },
         "push": {
